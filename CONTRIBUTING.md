@@ -19,3 +19,14 @@ Whether you're fixing a bug, improving documentation, or adding a new feature â€
 4. Make your changes
 5. Follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) standard for commit messages
 6. Push and create a Pull Request.
+
+---
+
+## ðŸ“¦ Pull Request Guidelines
+
+- Keep PRs focused: one feature or fix per PR
+- Use a clear branch name: `feature/`, `fix/`, `chore/`, etc.
+- Follow the PR template (see `PULL_REQUEST_TEMPLATE.md`)
+- Use descriptive titles and messages
+- Reference any related Issues
+- Review your code before submitting
