@@ -53,3 +53,36 @@ It’s a **learning-focused** build, but also a working example of how real SaaS
 ```bash
 git clone https://github.com/yourusername/open-source-crm-tool.git
 cd open-source-crm-tool
+```
+
+---
+
+## 🧾 Project Standards & Conventions
+
+This project follows two key conventions to maintain clarity, consistency, and professional software practices:
+
+### 📄 Changelog Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
+All notable changes will be documented in [`CHANGELOG.md`](./CHANGELOG.md) using the Keep a Changelog format.
+This helps track what’s been added, changed, fixed, or removed over time — version by version.
+
+### ✅ Git Commit Format: [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+All commit messages follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) standard.
+
+Examples:
+```bash
+feat: add user login API with JWT authentication
+fix: correct typo in dashboard header
+docs: update README with usage instructions
+
+---
+
+## 📚 PR Standards Reference
+
+This project follows professional pull request and contribution practices modeled after:
+
+- [GitHub Pull Request Guidelines](https://docs.github.com/en/pull-requests)
+- [Google Code Review Standards](https://google.github.io/eng-practices/review/)
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
+
+All contributors are encouraged to review these links and follow the same level of professionalism and clarity in their pull requests.
