@@ -73,3 +73,16 @@ Examples:
 feat: add user login API with JWT authentication
 fix: correct typo in dashboard header
 docs: update README with usage instructions
+
+---
+
+## 📚 PR Standards Reference
+
+This project follows professional pull request and contribution practices modeled after:
+
+- [GitHub Pull Request Guidelines](https://docs.github.com/en/pull-requests)
+- [Google Code Review Standards](https://google.github.io/eng-practices/review/)
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
+
+All contributors are encouraged to review these links and follow the same level of professionalism and clarity in their pull requests.
