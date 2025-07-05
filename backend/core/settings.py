@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgressql',
-        'NAME': 'quotapath_clone',
+        'NAME': 'open_source_crm',
         'USER': 'postgres',
         'PASSWORD': '123456', # change this to your password
         'HOST': 'localhost',
