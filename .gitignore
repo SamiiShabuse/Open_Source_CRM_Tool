@@ -1,10 +1,25 @@
-.env
-.venv
-__pycache__
-*.pyc
+# Python bytecode
+__pycache__/
+*.py[cod]
 *.pyo
+
+# Compiled files
 *.pyd
 *.pyw
 *.pyz
 *.pywz
 *.pyzw
+
+# Environment
+.venv/
+.env
+
+# System files (optional)
+.DS_Store
+
+# Logs (optional)
+*.log
+
+# Tool caches (optional)
+.mypy_cache/
+.pytest_cache/
