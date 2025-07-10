@@ -28,3 +28,27 @@ Just figured out in the venv environment it doesn't automatically update the req
 But cool thing just found about is python-decouple ! New cool import instead of using a yaml config file.
 
 I'm actually super amazed on how django works. With what we defined with the health check and how it connected and made a url at the top I'm literally amazed at what just happened, I was able to get a json output.
+
+# July 10 2025
+
+Today is the next day I'm super excited to get started. I am going to focus on making sure I can finish more today.
+
+The goal is to keep working straight through until I fall asleep. Only being productive till the very end.
+
+I made the first page but I'm getting an error syaing it's not able to connect to the backend but the issue is I'm getting a 200 response so that mean its connecting just visuallY I did something wrong?
+
+So I found the issue it's related to the browser blocking the request form React (on localhost:3000) to Django (on localhost:8000) due to CORS so now I'm going through the process of fixing that.
+
+Okay I just added the stuff for CORS I installed the python module for django to help assist with it.
+
+I always keep forgetting the command I'm suppose to write to start my django server but its
+
+```bash
+python manage.py runserver
+```
+
+This is to start the react project.
+
+```bash
+npm start
+```
