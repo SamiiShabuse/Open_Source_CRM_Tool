@@ -7,7 +7,7 @@ I'm trying to set up postgressql but I messed up and only set it locally in my p
 
 Right now I'm going to be really amazed to see how this new .github folder works. This is literally something new I'm learning right now and I'm already amazed by it.
 
-# July 9, 2025
+# July 8, 2025
 
 Today is the day. I will be connecthing the frontend with the backend.
 
@@ -29,7 +29,7 @@ But cool thing just found about is python-decouple ! New cool import instead of 
 
 I'm actually super amazed on how django works. With what we defined with the health check and how it connected and made a url at the top I'm literally amazed at what just happened, I was able to get a json output.
 
-# July 10 2025
+# July 9, 2025
 
 Today is the next day I'm super excited to get started. I am going to focus on making sure I can finish more today.
 
@@ -52,3 +52,6 @@ This is to start the react project.
 ```bash
 npm start
 ```
+
+
+# July 10, 2025
