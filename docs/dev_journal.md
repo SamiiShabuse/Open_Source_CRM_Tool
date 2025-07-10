@@ -55,3 +55,15 @@ npm start
 
 
 # July 10, 2025
+
+Today we are going to focus on writing the CI/CD pipeline. 
+
+Just ran the cmd
+
+```bash
+
+mkdir -p .github/workflows
+
+```
+
+What this mean is that -p creates parent directories as needed, and doesn't throw an error if the directory already exists.
