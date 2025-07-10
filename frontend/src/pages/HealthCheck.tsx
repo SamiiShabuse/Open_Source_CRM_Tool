@@ -5,9 +5,18 @@ const HealthCheck: React.FC = () => {
 
     useEffect(() => {
         fetch('http://localhost:8000/api/health-check/')
-            .then((res) => res.json())
-            .then((data) => setStatus(data.status))
-            .catch(() => setStatus('Error connecting to backend.'));
+            .then((res) => {
+                console.log('Raw Response;', res);
+                return res.json();
+            })
+            .then((data) => {
+                console.log('Parsed Data:', data);
+                setStatus(data.status);
+            })
+            .catch((error) => {
+                console.error('Error fetching health check:', error);
+                setStatus('Error connecting to backend.');
+            });
     }, []);
 
     return <div>Backend Status: {status}</div>;
