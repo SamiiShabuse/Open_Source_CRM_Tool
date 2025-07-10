@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\sshab\Desktop\quotapath_clone\backend\env"
+VIRTUAL_ENV="C:\Users\sshab\Desktop\opensource_crm\backend\env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
