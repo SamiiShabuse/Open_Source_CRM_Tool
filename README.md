@@ -1,4 +1,5 @@
 # Open Source CRM Tool
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
 
 A simple, full-stack, open-source Customer Relationship Management (CRM) tool built with Django, PostgreSQL, React, and Docker.
 
