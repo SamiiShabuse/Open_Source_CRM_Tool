@@ -67,3 +67,13 @@ mkdir -p .github/workflows
 ```
 
 What this mean is that -p creates parent directories as needed, and doesn't throw an error if the directory already exists.
+
+# July 11, 2025
+
+Today is a new day. I'm amazed. I'm streaming and learning about secrets on github! It's cool to learn that the CI/CD pipeline isn't able to to reference the .env
+
+[Secrets on GitHub](https://docs.github.com/en/actions/how-tos/security-for-github-actions/security-guides/using-secrets-in-github-actions/)
+
+Just thinking about how crazy there is so such work that goes into this development
+
+Just found out my secret key has been exposed haha! Just added it to my config!
